@@ -18,7 +18,6 @@ export const EfficiencyChart = () => (
     title="Operational Efficiency"
     subtitle="Performance vs benchmarks across categories"
     badge="+5.4% YoY"
-    fullWidth
   >
     <ResponsiveContainer width="100%" height={380}>
       <RadarChart data={efficiencyData} margin={{ top: 8, right: 40, left: 40, bottom: 8 }}>
